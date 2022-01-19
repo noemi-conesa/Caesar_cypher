@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    height: auto;
+    width: 900px;
+    margin: 20px auto;
+    background-color: pink;
+    border-radius: 5px;
+    h1 {
+        padding: 20px;
+        text-align: center;
+        color: rgb(93, 167, 93);
+    }
+    .instructions {
+        height: 150px;
+        padding: 10px;
+        margin-bottom: 5px;
+        .info-icon {
+            height: 150px;
+            float: left;
+            i {
+                font-size: 40px;
+                color: rgb(93, 167, 93);
+                padding: 0 20px;
+                line-height: 136px;
+            }
+        }
+        .instr-list {
+            float: left;
+            padding: 20px;
+        }   
+    }
+
+    .input-box {
+        padding: 0 20px;
+        margin-bottom: 20px;
+        input {
+            display: block;
+        }
+        p {
+            padding: 20px 0 10px 0;
+        }
+        input[type=text] {
+            height: 50px;
+            width: 300px;
+            padding: 10px;
+        }
+        input[type=number] {
+            height: 50px;
+            width: 70px;
+            padding: 10px;
+        }
+    }
+    .cypher-buttons {
+        height: 100px;
+        margin: 0 20px;
+        button {
+            display: block;
+            text-align: center;
+            height: 50px;
+            width: 300px;
+        }
+        .btn-encr {
+            margin: 20px 0;
+        }
+        .btn-reset {
+            margin-bottom: 20px;
+        }
+    }
+    .result {
+        height: 50px;
+        width: 300px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        line-height: 50px;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        p {
+            font-size: 1.5em;
+            align-items: center;
+        }
+    }
+}
